@@ -1,0 +1,47 @@
+// GENERAL CSS
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-size: 16px;
+}
+
+img{
+    display: inline-block;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+.container{
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 1100px;
+}
+
+.site-btn{
+    padding: 8px 16px;
+    border-radius: 5px;
+    background: $--main-back-color;
+    color: $--main-text-color;
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 160% */
+}
